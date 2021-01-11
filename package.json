@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/octree",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A Typescript port of Nevermore's Octree module",
 	"main": "src/init.lua",
 	"scripts": {
