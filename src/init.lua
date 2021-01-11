@@ -20,6 +20,10 @@ function Octree.new()
 	return self
 end
 
+function Octree:ClearAllNodes()
+	self._regionHashMap = {}
+end
+
 function Octree:GetAllNodes()
 	local options = {}
 

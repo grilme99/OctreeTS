@@ -1,4 +1,5 @@
 declare interface Octree<T> {
+    ClearAllNodes(): void
     GetAllNodes(): T[]
     CreateNode(position: Vector3, object: T): unknown
     RadiusSearch(position: Vector3, radius: number): T[]
