@@ -1,8 +1,8 @@
 --- Octree implementation
 -- @classmod Octree
 
-local OctreeRegionUtils = require(script.Parent:WaitForChild('OctreeRegionUtils'))
-local OctreeNode = require(script.Parent:WaitForChild('OctreeNode'))
+local OctreeRegionUtils = require(script:WaitForChild('OctreeRegionUtils'))
+local OctreeNode = require(script:WaitForChild('OctreeNode'))
 
 local EPSILON = 1e-9
 
