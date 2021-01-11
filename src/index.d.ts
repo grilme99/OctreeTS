@@ -9,4 +9,5 @@ declare interface OctreeConstructor {
     new <T>(): Octree<T>
 }
 
-export = OctreeConstructor
+declare const Octree: OctreeConstructor
+export = Octree
