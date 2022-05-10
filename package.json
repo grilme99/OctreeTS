@@ -4,6 +4,9 @@
   "description": "A Typescript port of Nevermore's Octree module",
   "repository": "github:grilme99/OctreeTS",
   "main": "src/init.lua",
+  "files": [
+    "src"
+  ],
   "keywords": [
     "roblox-ts",
     "roblox",
