@@ -65,7 +65,7 @@ declare interface Octree<T> {
    *
    * **Warning:** If you have 100,000 nodes in your octree, this is going to be very slow.
    */
-  GetAllNodes(): T[];
+  GetAllNodes(): OctreeNode<T>[];
   /**
    * Creates a new `OctreeNode` at the given position which can be retrieved.
    */
