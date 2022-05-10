@@ -1,7 +1,7 @@
 /**
  * Basic node interacting with the octree.
  */
-export interface OctreeNode<T> {
+declare interface OctreeNode<T> {
   /**
    * Finds the nearest neighbors to this node within the radius.
    *
@@ -102,4 +102,4 @@ declare interface OctreeConstructor {
 }
 
 declare const Octree: OctreeConstructor;
-export default Octree;
+export = Octree;
