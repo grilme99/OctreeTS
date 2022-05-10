@@ -1,12 +1,18 @@
 {
 	"name": "@rbxts/octree",
-	"version": "1.0.1",
+	"version": "1.0.1-ts.2",
 	"description": "A Typescript port of Nevermore's Octree module",
+	"repository": "github:grilme99/OctreeTS",
 	"main": "src/init.lua",
-	"scripts": {
-		"prepublishOnly": "rbxtsc"
-	},
-	"keywords": [],
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"roblox-ts",
+		"roblox",
+		"nevermore",
+		"octree"
+	],
 	"author": "",
 	"license": "MIT",
 	"publishConfig": {
@@ -14,8 +20,8 @@
 	},
 	"types": "src/index.d.ts",
 	"devDependencies": {
-		"@rbxts/compiler-types": "^1.0.0-beta.13.1",
-		"@rbxts/types": "^1.0.437",
+		"@rbxts/compiler-types": "^1.3.3-types.1",
+		"@rbxts/types": "^1.0.590",
 		"@typescript-eslint/eslint-plugin": "^4.12.0",
 		"@typescript-eslint/parser": "^4.12.0",
 		"eslint": "^7.17.0",
